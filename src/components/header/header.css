@@ -1,7 +1,3 @@
-light green: #76d56f 
-   medium green: #55c57a
-   Dark green: #28b485
-
 
 *{
     margin:0px;
@@ -49,5 +45,6 @@ light green: #76d56f
 }
 
 .box{
+    background: linear-gradient( rgba(77, 139, 77, 0.486));
     margin-top:60px;
 }

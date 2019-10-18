@@ -126,7 +126,7 @@ const Header = () => {
       </nav>
     
 
-    <div className="container ">
+    <div className="container">
     <div className="box">
     
     <div className="cards">
