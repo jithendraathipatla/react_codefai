@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar.is-fixed-top {
+    top: 0;
+    background: transparent;
+    background: linear-gradient(to right, red, transparent);
+}
+
+.navbar-end {
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+.navbar-start {
+    justify-content: flex-start;
+    margin-left: 566px;
+}
+
+.control{
+    display:inline-block;
+    margin-right:15px;
+}
+
+.cards{
+    display: flex;
+    padding: 40px 0px 40px 90px;
+   
+}
+
+.card1{
+    flex:1;
+    margin-right: 8%;
+}
+.card2{
+    flex: 1;
+    margin-right: 8%;
+}
+.card3{
+    flex: 1;
+    margin-right: 8%;
+}
+
+.box{
+    margin-top:60px;
+}
