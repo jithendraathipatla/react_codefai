@@ -1,12 +1,34 @@
-import React from 'react';
+import React,{useState} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Navbar from "./components/navbar/navbar";
+import Drawer from "./components/navbar/drawer/drawer"
+import Backdrop from "./components/navbar/drawer/backdrop";
+import Content from "../src/components/content/content"
+
+const App = () => {
+   const [state, setstate] = useState(false);
+   const toogleNav = () => {
+    state === true ? setstate(false) : setstate(true)
+   }
+   const initialstate = () => {
+       setstate(false);
+   }
+    const finalstate = () => {
+    setstate(true);
+   }
+    return(
+        <div>
+          <Navbar property={toogleNav}/>
+          {state === true ? <div><Drawer property={finalstate}/><Backdrop property={initialstate}/></div> : null}
+          
+         <div>
+         <Content/>
+         </div>
+        </div>
+    )
+}
+
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

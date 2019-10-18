@@ -1,0 +1,38 @@
+.content{
+   margin-top: 4%;
+   padding: 0px 10px;;
+}
+
+.image{
+    background-image: linear-gradient(to bottom, #76d56fe8,#28b485e8), url("https://jithendraathipatla.github.io/NewcodeFai/img/first.jpg");
+    clip-path: polygon(0 0, 100% 0, 110% 70vh, 0 100%);
+    height: 90vh;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.content{
+    text-align: center;
+}
+.maincontent{
+    top:50%;
+    left:50%;
+
+}
+.mainContent--nain{
+    display: block;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    font-weight: 800;
+
+}
+
+.mainContent--sub{
+    display: block;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1rem;
+    font-weight: 800;
+}
+
