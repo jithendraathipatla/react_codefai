@@ -25,16 +25,11 @@ const Card1 = (props) => {
             <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
           </div>
         </div>
-        <footer className="card-footer">
-          <a href="#" className="card-footer-item">Save</a>
-          <a href="#" className="card-footer-item">Edit</a>
-          <a href="#" className="card-footer-item">Delete</a>
-        </footer>
-
-
-    </div>
-   
         
+ 
+
+          </div>
+   
         </div>
          
      

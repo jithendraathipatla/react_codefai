@@ -1,3 +1,8 @@
+light green: #76d56f 
+   medium green: #55c57a
+   Dark green: #28b485
+
+
 *{
     margin:0px;
     padding:0px;
@@ -6,7 +11,7 @@
 .navbar.is-fixed-top {
     top: 0;
     background: transparent;
-    background: linear-gradient(to right, red, transparent);
+    background: linear-gradient(to right, #76d56fe8 , #28b485e8 );
 }
 
 .navbar-end {
